@@ -30,7 +30,7 @@ SecuTools aims to address the complexity and time-consuming nature of various se
 - A fully functional Python-based toolkit with the following features:
   - Password generation and validation functions.
   - Network scanning utilities.
-- Comprehensive documentation, including setup instructions, usage examples, and a demonstration video.
+- Comprehensive documentation, including setup instructions and usage examples.
 - A GitHub repository containing the source code, documentation, and any additional resources.
 
 ### Timeline
