@@ -9,9 +9,9 @@ SecuTools is a Python-based automation tool designed to streamline and enhance v
 SecuTools: An Automated Security Toolkit
 
 ### Project Goals
-- To provide an all-in-one toolkit for various security-related tasks.
+- To provide a simple toolkit for various security-related tasks.
 - To automate repetitive and complex security tasks, making them more accessible and efficient.
-- To enhance the security posture of users by offering easy-to-use security tools.
+- To enhance users' security posture by offering easy-to-use security tools.
 
 ### The Problem Being Solved
 SecuTools aims to address the complexity and time-consuming nature of various security tasks such as password management and network scanning. By automating these tasks, the tool helps users to focus on more critical security analysis and decision-making activities.
