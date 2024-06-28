@@ -1,65 +1,85 @@
 # SecuTools: An Automated Security Toolkit
 
-## Project Description
 SecuTools is a Python-based automation tool designed to streamline and enhance various security-related functions. This tool provides functionalities such as password generation and validation, and network scanning. The aim is to make security tasks more efficient and accessible for cybersecurity professionals and enthusiasts.
 
-## Project Plan and Scope
+## Table of Contents
 
-### Project Title
-SecuTools: An Automated Security Toolkit
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Password Management](#password-management)
+  - [Network Scanning](#network-scanning)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Authors and Acknowledgements](#authors-and-acknowledgements)
+- [Contact](#contact)
 
-### Project Goals
-- To provide a simple toolkit for various security-related tasks.
-- To automate repetitive and complex security tasks, making them more accessible and efficient.
-- To enhance users' security posture by offering easy-to-use security tools.
+## Installation
 
-### The Problem Being Solved
-SecuTools aims to address the complexity and time-consuming nature of various security tasks such as password management and network scanning. By automating these tasks, the tool helps users to focus on more critical security analysis and decision-making activities.
+To set up SecuTools on your local machine, follow these steps:
 
-### Scope
+1. Clone the repository:
 
-1. **Password Management**:
-   - Generate strong, random passwords.
-   - Validate password strength.
+    ```bash
+    git clone https://github.com/Zyber369/SecuTools.git
+    ```
 
-2. **Network Scanning**:
-   - Scan local networks for active devices.
-   - Identify open ports on devices.
+2. Navigate to the project directory:
 
-### Expected Outcomes and Deliverables
-- A fully functional Python-based toolkit with the following features:
-  - Password generation and validation functions.
-  - Network scanning utilities.
-- Comprehensive documentation, including setup instructions and usage examples.
-- A GitHub repository containing the source code, documentation, and any additional resources.
+    ```bash
+    cd SecuTools
+    ```
 
-### Timeline
+3. (Optional) Set up a virtual environment:
 
-1. **Phase 1: Planning and Design (Week 1)**
-   - Define detailed requirements and functionalities.
-   - Design the software architecture.
-   - Set up the GitHub repository.
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
 
-2. **Phase 2: Development (Week 2)**
-   - Implement password management functions.
-   - Create network scanning capabilities.
+4. Install dependencies:
 
-3. **Phase 3: Testing and Validation (Week 3)**
-   - Perform unit and integration testing.
-   - Validate the functionalities with test cases.
+    ```bash
+    pip install -r requirements.txt
+    ```
+## Credits
 
-4. **Phase 4: Documentation and Demonstration (Week 4)**
-   - Document the code and usage instructions.
-   - Create a demonstration script.
-   - Finalize and deliver the project.
+SecuTools was developed with the help of several libraries, tools, and resources. We would like to acknowledge their contributions to the project:
 
-## GitHub Repository
+- **Python**: The core language used to develop SecuTools.
+- **Standard Library**:
+  - `random` and `string`: Used for password generation and validation.
+  - `socket`: Used for network scanning functionalities.
+- **Git and GitHub**: For version control and repository hosting.
+- **PyCharm**: Integrated Development Environment (IDE) used for writing and debugging the code.
+- **pip**: Package installer for managing dependencies.
+- **Markdown**: For writing documentation, including this README file.
 
-The project's GitHub repository can be found [here](https://github.com/Zyber369/SecuTools).
+### Libraries
 
-## Tool Demonstration
+- **Python Standard Library**:
+  - `random`: Used for generating random passwords.
+  - `string`: Used for character manipulation in password generation.
+  - `socket`: Used for network scanning to check for open ports on devices.
 
-### 1. Password Management
+### Tools
+
+- **Git**: For version control and collaboration.
+- **GitHub**: For hosting the project's repository and facilitating collaboration.
+- **PyCharm**: As the primary IDE for developing and testing the project.
+- **pip**: To install and manage Python packages and dependencies.
+
+### Resources
+
+- **Python Documentation**: [Python Docs](https://docs.python.org/3/)
+- **Socket Programming in Python**: [Python Socket Programming](https://docs.python.org/3/howto/sockets.html)
+- **Git Documentation**: [Git Docs](https://git-scm.com/doc)
+- **Markdown Guide**: [Markdown Guide](https://www.markdownguide.org/)
+## Usage
+
+### Password Management
+
+The password management module allows you to generate strong, random passwords and validate their strength.
 
 ```python
 import random
@@ -80,7 +100,6 @@ def validate_password(password):
     return False
 
 # Demo
-if __name__ == "__main__":
-    generated_password = generate_password()
-    print("Generated Password:", generated_password)
-    print("Password Validation:", validate_password(generated_password))
+print("Generated Password:", generate_password())
+print("Password Validation:", validate_password("P@ssw0rd123"))
+
