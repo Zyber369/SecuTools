@@ -35,20 +35,20 @@ SecuTools aims to address the complexity and time-consuming nature of various se
 
 ### Timeline
 
-1. **Phase 1: Planning and Design (Week 1-2)**
+1. **Phase 1: Planning and Design (Week 1)**
    - Define detailed requirements and functionalities.
    - Design the software architecture.
    - Set up the GitHub repository.
 
-2. **Phase 2: Development (Week 3-6)**
+2. **Phase 2: Development (Week 2)**
    - Implement password management functions.
    - Create network scanning capabilities.
 
-3. **Phase 3: Testing and Validation (Week 7-8)**
+3. **Phase 3: Testing and Validation (Week 3)**
    - Perform unit and integration testing.
    - Validate the functionalities with test cases.
 
-4. **Phase 4: Documentation and Demonstration (Week 9-10)**
+4. **Phase 4: Documentation and Demonstration (Week 4)**
    - Document the code and usage instructions.
    - Create a demonstration script or video.
    - Finalize and deliver the project.
