@@ -8,11 +8,8 @@ SecuTools is a Python-based automation tool designed to streamline and enhance v
 - [Usage](#usage)
   - [Password Management](#password-management)
   - [Network Scanning](#network-scanning)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Authors and Acknowledgements](#authors-and-acknowledgements)
-- [Contact](#contact)
+- [Credits](#credits)
+
 
 ## Installation
 
