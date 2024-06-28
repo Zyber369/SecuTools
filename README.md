@@ -50,7 +50,7 @@ SecuTools aims to address the complexity and time-consuming nature of various se
 
 4. **Phase 4: Documentation and Demonstration (Week 4)**
    - Document the code and usage instructions.
-   - Create a demonstration script or video.
+   - Create a demonstration script.
    - Finalize and deliver the project.
 
 ## GitHub Repository
