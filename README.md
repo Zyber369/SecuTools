@@ -41,7 +41,7 @@ To set up SecuTools on your local machine, follow these steps:
     ```
 ## Credits
 
-SecuTools was developed with the help of several libraries, tools, and resources. We would like to acknowledge their contributions to the project:
+SecuTools was developed with the help of several libraries, tools, and resources. I would like to acknowledge their contributions to the project:
 
 - **Python**: The core language used to develop SecuTools.
 - **Standard Library**:
